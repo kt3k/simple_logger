@@ -1,4 +1,7 @@
-version: 0.0.1
+---
+version: 0.0.2
 commit: 'chore: bump to %.%.%'
 files:
-  README.md: simple_logger v%.%.%
+  README.md:
+  - simple_logger v%.%.%
+  - https://raw.githubusercontent.com/kt3k/simple_logger/v%.%.%/mod.ts
