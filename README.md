@@ -1,11 +1,11 @@
-# simple_logger v0.0.2
+# simple_logger v0.0.3
 
 A simple logger
 
 # Usage
 
 ```ts
-import { create } from "https://raw.githubusercontent.com/kt3k/simple_logger/v0.0.2/mod.ts";
+import { create } from "https://raw.githubusercontent.com/kt3k/simple_logger/v0.0.3/mod.ts";
 
 const logger = create("info");
 
@@ -20,8 +20,6 @@ logger.error("error logging"); // does print
 Supply custom logger
 
 ```ts
-import { create } from "https://raw.githubusercontent.com/kt3k/simple_logger/v0.0.2/mod.ts";
-
 const logger = create("warn", {
   trace(...args) {
     ...
