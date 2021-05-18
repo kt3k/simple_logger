@@ -1,6 +1,6 @@
 # simple_logger v0.0.3
 
-A simple logger
+A simple logger for [Deno](https://deno.land/)
 
 # Usage
 
