@@ -1,11 +1,11 @@
-type Level =
+export type Level =
   | "trace"
   | "debug"
   | "info"
   | "warn"
   | "error";
 
-interface Logger {
+export interface Logger {
   trace(...data: unknown[]): void;
   debug(...data: unknown[]): void;
   log(...data: unknown[]): void;
