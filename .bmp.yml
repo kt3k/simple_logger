@@ -1,0 +1,4 @@
+version: 0.0.1
+commit: 'chore: bump to %.%.%'
+files:
+  README.md: simple_logger v%.%.%
